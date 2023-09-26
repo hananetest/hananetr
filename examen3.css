@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+    
+.tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tile {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tile a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
